@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.Core", "SuperTemplate.Core\SuperTemplate.Core.csproj", "{456266E4-9A43-4731-B75A-466B11572108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CE002E6D-CDAA-41F2-9A5E-F0D5E37337A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Resolution", "Dependency Resolution", "{849822DD-1324-4852-BB0E-82C41BBF5F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{FCD8752C-BD61-4C86-8E86-DC3BD34CAA37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{79AC2D03-6F58-4D9E-A764-ACD679712908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.StructureMap", "SuperTemplate.StructureMap\SuperTemplate.StructureMap.csproj", "{ABC2A385-C450-4EDE-8FEE-EC1AB7F1E57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.EntityFramework", "SuperTemplate.EntityFramework\SuperTemplate.EntityFramework.csproj", "{9DDCA582-C541-47EA-A244-3D4216971528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.Web", "SuperTemplate.Web\SuperTemplate.Web.csproj", "{0DCFC570-65EA-46DB-B447-8BB8134AA624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8235A445-D000-494E-B4C2-5A72C0DA1649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{456266E4-9A43-4731-B75A-466B11572108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456266E4-9A43-4731-B75A-466B11572108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456266E4-9A43-4731-B75A-466B11572108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456266E4-9A43-4731-B75A-466B11572108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC2A385-C450-4EDE-8FEE-EC1AB7F1E57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC2A385-C450-4EDE-8FEE-EC1AB7F1E57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC2A385-C450-4EDE-8FEE-EC1AB7F1E57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC2A385-C450-4EDE-8FEE-EC1AB7F1E57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDCA582-C541-47EA-A244-3D4216971528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDCA582-C541-47EA-A244-3D4216971528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDCA582-C541-47EA-A244-3D4216971528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDCA582-C541-47EA-A244-3D4216971528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCFC570-65EA-46DB-B447-8BB8134AA624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCFC570-65EA-46DB-B447-8BB8134AA624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCFC570-65EA-46DB-B447-8BB8134AA624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCFC570-65EA-46DB-B447-8BB8134AA624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{456266E4-9A43-4731-B75A-466B11572108} = {8235A445-D000-494E-B4C2-5A72C0DA1649}
+		{ABC2A385-C450-4EDE-8FEE-EC1AB7F1E57A} = {849822DD-1324-4852-BB0E-82C41BBF5F1E}
+		{9DDCA582-C541-47EA-A244-3D4216971528} = {CE002E6D-CDAA-41F2-9A5E-F0D5E37337A2}
+		{0DCFC570-65EA-46DB-B447-8BB8134AA624} = {79AC2D03-6F58-4D9E-A764-ACD679712908}
+	EndGlobalSection
+EndGlobal
