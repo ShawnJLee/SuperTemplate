@@ -46,9 +46,9 @@
       <Project>{456266e4-9a43-4731-b75a-466b11572108}</Project>
       <Name>SuperTemplate.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SuperTemplate.EntityFramework\SuperTemplate.EntityFramework.csproj">
+    <ProjectReference Include="..\SuperTemplate.EntityFramework\SuperTemplate.EF.csproj">
       <Project>{9ddca582-c541-47ea-a244-3d4216971528}</Project>
-      <Name>SuperTemplate.EntityFramework</Name>
+      <Name>SuperTemplate.EF</Name>
     </ProjectReference>
     <ProjectReference Include="..\SuperTemplate.Web\SuperTemplate.Web.csproj">
       <Project>{0dcfc570-65ea-46db-b447-8bb8134aa624}</Project>

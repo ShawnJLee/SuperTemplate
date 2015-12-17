@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.Core", "SuperTemplate.Core\SuperTemplate.Core.csproj", "{456266E4-9A43-4731-B75A-466B11572108}"
 EndProject
@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{FCD8752C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{79AC2D03-6F58-4D9E-A764-ACD679712908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.StructureMap", "SuperTemplate.StructureMap\SuperTemplate.StructureMap.csproj", "{ABC2A385-C450-4EDE-8FEE-EC1AB7F1E57A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.SM", "SuperTemplate.StructureMap\SuperTemplate.SM.csproj", "{ABC2A385-C450-4EDE-8FEE-EC1AB7F1E57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.EntityFramework", "SuperTemplate.EntityFramework\SuperTemplate.EntityFramework.csproj", "{9DDCA582-C541-47EA-A244-3D4216971528}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.EF", "SuperTemplate.EntityFramework\SuperTemplate.EF.csproj", "{9DDCA582-C541-47EA-A244-3D4216971528}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTemplate.Web", "SuperTemplate.Web\SuperTemplate.Web.csproj", "{0DCFC570-65EA-46DB-B447-8BB8134AA624}"
 EndProject
