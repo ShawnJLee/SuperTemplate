@@ -7,8 +7,8 @@
     <ProjectGuid>{9DDCA582-C541-47EA-A244-3D4216971528}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SuperTemplate.EntityFramework</RootNamespace>
-    <AssemblyName>SuperTemplate.EntityFramework</AssemblyName>
+    <RootNamespace>SuperTemplate.EF</RootNamespace>
+    <AssemblyName>SuperTemplate.EF</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoSomething.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
