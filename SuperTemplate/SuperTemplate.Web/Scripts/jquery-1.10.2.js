@@ -62,7 +62,7 @@ var
 
 	core_version = "1.10.2",
 
-	// Save a reference to some core methods
+	// Insert a reference to some core methods
 	core_concat = core_deletedIds.concat,
 	core_push = core_deletedIds.push,
 	core_slice = core_deletedIds.slice,
@@ -7765,7 +7765,7 @@ jQuery.fn.load = function( url, params, callback ) {
 			data: params
 		}).done(function( responseText ) {
 
-			// Save response for use in complete callback
+			// Insert response for use in complete callback
 			response = arguments;
 
 			self.html( selector ?
@@ -8057,7 +8057,7 @@ jQuery.extend({
 		// Determine if request has content
 		s.hasContent = !rnoContent.test( s.type );
 
-		// Save the URL in case we're toying with the If-Modified-Since
+		// Insert the URL in case we're toying with the If-Modified-Since
 		// and/or If-None-Match header later on
 		cacheURL = s.url;
 
@@ -8597,7 +8597,7 @@ jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
 			// Restore preexisting value
 			window[ callbackName ] = overwritten;
 
-			// Save back as free
+			// Insert back as free
 			if ( s[ callbackName ] ) {
 				// make sure that re-using the options doesn't screw things around
 				s.jsonpCallback = originalSettings.jsonpCallback;

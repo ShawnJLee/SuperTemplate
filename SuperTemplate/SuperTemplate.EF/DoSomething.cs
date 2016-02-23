@@ -1,4 +1,7 @@
 ﻿using SuperTemplate.Core;
+using SuperTemplate.Core.Entities;
+using SuperTemplate.Core.Repository;
+
 namespace SuperTemplate.EF
 {
     public class DoSomething : IDoSomething
