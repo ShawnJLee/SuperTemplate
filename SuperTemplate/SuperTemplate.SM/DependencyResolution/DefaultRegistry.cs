@@ -15,17 +15,15 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-using System.Reflection;
 using StructureMap.Configuration.DSL;
 using StructureMap.Graph;
-using SuperTemplate.Core;
-using SuperTemplate.EF;
+using SuperTemplate.Core.Entities;
+using SuperTemplate.Core.Repository;
+using SuperTemplate.EF.Repository;
 
 namespace SuperTemplate.SM.DependencyResolution {
 	
     public class DefaultRegistry : Registry {
-        #region Constructors and Destructors
-
         public DefaultRegistry()
         {
             Scan(
@@ -33,12 +31,10 @@ namespace SuperTemplate.SM.DependencyResolution {
                     scan.TheCallingAssembly();
                     scan.WithDefaultConventions();
 					scan.With(new ControllerConvention());
-                    scan.AssemblyContainingType<IDoSomething>();
-                    scan.AssemblyContainingType<DoSomething>();
+                    scan.AssemblyContainingType<IRepository<BaseEntity>>();
+                    scan.AssemblyContainingType<Repository<BaseEntity>>();
                 });
-            For<IDoSomething>().Use<DoSomething>();
+            For(typeof (IRepository<>)).Use(typeof (Repository<>));
         }
-
-        #endregion
     }
 }
